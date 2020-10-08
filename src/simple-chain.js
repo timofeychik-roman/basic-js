@@ -39,8 +39,4 @@ const chainMaker = {
   }
 };
 
-function f() {
-  debugger;
-  chainMaker.reverseChain().reverseChain().addLink(NaN).addLink({0: 'first', 1: 'second', 'length': 2}).addLink({0: 'first', 1: 'second', 'length': 2}).addLink({0: 'first', 1: 'second', 'length': 2}).reverseChain().reverseChain().addLink({0: 'first', 1: 'second', 'length': 2}).addLink(true).finishChain();
-}
 module.exports = chainMaker;
